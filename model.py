@@ -180,7 +180,7 @@ class LSTM_Var_Autoencoder(object):
             learning_rate=0.001,
             batch_size=100,
             num_epochs=200,
-            opt=tf.train.AdamOptimizer,
+            opt=tf.train.Adam,
             REG_LAMBDA=0,
             grad_clip_norm=10,
             optimizer_params=None,
